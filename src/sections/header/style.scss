@@ -1,0 +1,123 @@
+
+/* Navbar */
+.header {
+    padding: 20px 0;
+}
+
+.header .header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header .header-content .logo2 img {
+    width: 90px;
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.header .list ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.header .list ul li a {
+    font-size: 20px;
+    color: var(--bg-color);
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.header .cart {
+    margin-left: 30px;
+}
+
+.header .cart .icon {
+    position: relative;
+    cursor: pointer;
+}
+
+.header .cart .icon svg {
+    font-size: 45px;
+    color: var(--primary-color);
+}
+
+.header .cart .icon span {
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    top: -10px;
+    left: 100%;
+}
+
+
+/* Popup */
+.cart-modal td {
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.cart-modal .modal-header {
+    border-bottom: 0;
+}
+
+.cart-modal .modal-body h3 {
+    font-size: 26px;
+    padding-bottom: 30px;
+}
+
+.cart-modal img {
+    width: 100px;
+}
+
+.cart-modal .amount-area {
+    display: flex;
+    align-items: center;
+}
+
+.cart-modal .amount-area span {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.cart-modal .amount-area .plus,
+.cart-modal .amount-area .minus {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    font-size: 14px;
+    border-radius: 50%;
+    transition: all ease .3s;
+    cursor: pointer;
+}
+
+.cart-modal .amount-area .plus:hover,
+.cart-modal .amount-area .minus:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.cart-modal .action  {
+    display: inline-block;
+    font-size: 24px;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.cart-modal .action:hover {
+    color: #161616;
+}
+

@@ -1,0 +1,61 @@
+/* Food */
+.food {
+    padding: 60px 0;
+    background-color: #F5F6F7;
+}
+
+.food h2 {
+    padding-bottom: 50px;
+}
+
+.food .food-item {
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+
+.food .food-item img {
+    width: 100%;
+}
+
+.food .food-item .info {
+    padding: 15px 10px;
+}
+
+.food .food-item .info h4 {
+    font-size: 18px;
+}
+
+.food .food-item .info .price-area {
+    display: flex;
+}
+
+.food .food-item .info .price-area .price {
+    margin-left: auto;
+}
+
+.food .food-item .ratting svg {
+    color: #D9D9D9;
+}
+
+.food .food-item .ratting svg.active {
+    color: var(--primary-color);
+}
+
+.food .food-item .btn-area {
+    padding: 0 10px 15px;
+}
+
+.food .food-item .btn-area a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 35px;
+}
+
+.food .food-item .btn-area a.added {
+    background-color: var(--bg-color);
+}
